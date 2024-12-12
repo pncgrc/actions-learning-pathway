@@ -33,7 +33,7 @@ jobs:
 
   deploy:
     needs: test
-
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       pages: write     
